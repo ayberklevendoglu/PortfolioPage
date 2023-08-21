@@ -36,6 +36,19 @@ body{
     background-color: var(--aqua);
     font-weight: bold;
 }
+.link-magenta{
+    color: var(--magenta);
+}
+.section-blue{
+    background-color: var(--dkblue);
+}
+.blackbox{
+    background-color: var(--black);
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
 
 .gradient{
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 103, 1) 35%, rgba(0, 212, 255, 1) 100%);
@@ -162,7 +175,31 @@ footer a:hover{
     display: flex;
     gap: 3rem;
 }
-
+/* Projects section */
+#projects{
+    padding: 4rem 1rem;
+}
+#projects h2{
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+#projects h3{
+    color: var(--aqua);
+    margin-bottom: 1rem;
+}
+#projects h4{
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin-bottom: 1rem;
+}
+#projects p{
+    margin-bottom: 1rem;
+}
+#projects li{
+    list-style: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
 /* media */
 @media (max-width:1060px) {
     nav li:first-child {
